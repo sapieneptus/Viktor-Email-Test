@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		899E94D5230C19BC00D3846A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 899E94D4230C19BC00D3846A /* AppDelegate.m */; };
+		899E94D8230C19BC00D3846A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 899E94D7230C19BC00D3846A /* ViewController.m */; };
+		899E94DB230C19BC00D3846A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899E94D9230C19BC00D3846A /* Main.storyboard */; };
+		899E94DD230C19BE00D3846A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899E94DC230C19BE00D3846A /* Assets.xcassets */; };
+		899E94E0230C19BE00D3846A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899E94DE230C19BE00D3846A /* LaunchScreen.storyboard */; };
+		899E94E3230C19BE00D3846A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 899E94E2230C19BE00D3846A /* main.m */; };
+		899E94ED230C19BE00D3846A /* ViktorEmailTestObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899E94EC230C19BE00D3846A /* ViktorEmailTestObjcTests.m */; };
+		899E94F8230C19BE00D3846A /* ViktorEmailTestObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 899E94F7230C19BE00D3846A /* ViktorEmailTestObjcUITests.m */; };
+		899E9507230C1BE900D3846A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899E9506230C1BE900D3846A /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		899E94E9230C19BE00D3846A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899E94C8230C19BC00D3846A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899E94CF230C19BC00D3846A;
+			remoteInfo = ViktorEmailTestObjc;
+		};
+		899E94F4230C19BE00D3846A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899E94C8230C19BC00D3846A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899E94CF230C19BC00D3846A;
+			remoteInfo = ViktorEmailTestObjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		899E94D0230C19BC00D3846A /* ViktorEmailTestObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViktorEmailTestObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		899E94D3230C19BC00D3846A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		899E94D4230C19BC00D3846A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		899E94D6230C19BC00D3846A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		899E94D7230C19BC00D3846A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		899E94DA230C19BC00D3846A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		899E94DC230C19BE00D3846A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		899E94DF230C19BE00D3846A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		899E94E1230C19BE00D3846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899E94E2230C19BE00D3846A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		899E94E8230C19BE00D3846A /* ViktorEmailTestObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViktorEmailTestObjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899E94EC230C19BE00D3846A /* ViktorEmailTestObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViktorEmailTestObjcTests.m; sourceTree = "<group>"; };
+		899E94EE230C19BE00D3846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899E94F3230C19BE00D3846A /* ViktorEmailTestObjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViktorEmailTestObjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899E94F7230C19BE00D3846A /* ViktorEmailTestObjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViktorEmailTestObjcUITests.m; sourceTree = "<group>"; };
+		899E94F9230C19BE00D3846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899E9506230C1BE900D3846A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		899E94CD230C19BC00D3846A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899E9507230C1BE900D3846A /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899E94E5230C19BE00D3846A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899E94F0230C19BE00D3846A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		899E94C7230C19BC00D3846A = {
+			isa = PBXGroup;
+			children = (
+				899E94D2230C19BC00D3846A /* ViktorEmailTestObjc */,
+				899E94EB230C19BE00D3846A /* ViktorEmailTestObjcTests */,
+				899E94F6230C19BE00D3846A /* ViktorEmailTestObjcUITests */,
+				899E94D1230C19BC00D3846A /* Products */,
+				899E9505230C1BE800D3846A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		899E94D1230C19BC00D3846A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				899E94D0230C19BC00D3846A /* ViktorEmailTestObjc.app */,
+				899E94E8230C19BE00D3846A /* ViktorEmailTestObjcTests.xctest */,
+				899E94F3230C19BE00D3846A /* ViktorEmailTestObjcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		899E94D2230C19BC00D3846A /* ViktorEmailTestObjc */ = {
+			isa = PBXGroup;
+			children = (
+				899E94D3230C19BC00D3846A /* AppDelegate.h */,
+				899E94D4230C19BC00D3846A /* AppDelegate.m */,
+				899E94D6230C19BC00D3846A /* ViewController.h */,
+				899E94D7230C19BC00D3846A /* ViewController.m */,
+				899E94D9230C19BC00D3846A /* Main.storyboard */,
+				899E94DC230C19BE00D3846A /* Assets.xcassets */,
+				899E94DE230C19BE00D3846A /* LaunchScreen.storyboard */,
+				899E94E1230C19BE00D3846A /* Info.plist */,
+				899E94E2230C19BE00D3846A /* main.m */,
+			);
+			path = ViktorEmailTestObjc;
+			sourceTree = "<group>";
+		};
+		899E94EB230C19BE00D3846A /* ViktorEmailTestObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				899E94EC230C19BE00D3846A /* ViktorEmailTestObjcTests.m */,
+				899E94EE230C19BE00D3846A /* Info.plist */,
+			);
+			path = ViktorEmailTestObjcTests;
+			sourceTree = "<group>";
+		};
+		899E94F6230C19BE00D3846A /* ViktorEmailTestObjcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				899E94F7230C19BE00D3846A /* ViktorEmailTestObjcUITests.m */,
+				899E94F9230C19BE00D3846A /* Info.plist */,
+			);
+			path = ViktorEmailTestObjcUITests;
+			sourceTree = "<group>";
+		};
+		899E9505230C1BE800D3846A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				899E9506230C1BE900D3846A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		899E94CF230C19BC00D3846A /* ViktorEmailTestObjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899E94FC230C19BE00D3846A /* Build configuration list for PBXNativeTarget "ViktorEmailTestObjc" */;
+			buildPhases = (
+				899E94CC230C19BC00D3846A /* Sources */,
+				899E94CD230C19BC00D3846A /* Frameworks */,
+				899E94CE230C19BC00D3846A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViktorEmailTestObjc;
+			productName = ViktorEmailTestObjc;
+			productReference = 899E94D0230C19BC00D3846A /* ViktorEmailTestObjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		899E94E7230C19BE00D3846A /* ViktorEmailTestObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899E94FF230C19BE00D3846A /* Build configuration list for PBXNativeTarget "ViktorEmailTestObjcTests" */;
+			buildPhases = (
+				899E94E4230C19BE00D3846A /* Sources */,
+				899E94E5230C19BE00D3846A /* Frameworks */,
+				899E94E6230C19BE00D3846A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899E94EA230C19BE00D3846A /* PBXTargetDependency */,
+			);
+			name = ViktorEmailTestObjcTests;
+			productName = ViktorEmailTestObjcTests;
+			productReference = 899E94E8230C19BE00D3846A /* ViktorEmailTestObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		899E94F2230C19BE00D3846A /* ViktorEmailTestObjcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899E9502230C19BE00D3846A /* Build configuration list for PBXNativeTarget "ViktorEmailTestObjcUITests" */;
+			buildPhases = (
+				899E94EF230C19BE00D3846A /* Sources */,
+				899E94F0230C19BE00D3846A /* Frameworks */,
+				899E94F1230C19BE00D3846A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899E94F5230C19BE00D3846A /* PBXTargetDependency */,
+			);
+			name = ViktorEmailTestObjcUITests;
+			productName = ViktorEmailTestObjcUITests;
+			productReference = 899E94F3230C19BE00D3846A /* ViktorEmailTestObjcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		899E94C8230C19BC00D3846A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = chrisf.io;
+				TargetAttributes = {
+					899E94CF230C19BC00D3846A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					899E94E7230C19BE00D3846A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 899E94CF230C19BC00D3846A;
+					};
+					899E94F2230C19BE00D3846A = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 899E94CF230C19BC00D3846A;
+					};
+				};
+			};
+			buildConfigurationList = 899E94CB230C19BC00D3846A /* Build configuration list for PBXProject "ViktorEmailTestObjc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 899E94C7230C19BC00D3846A;
+			productRefGroup = 899E94D1230C19BC00D3846A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				899E94CF230C19BC00D3846A /* ViktorEmailTestObjc */,
+				899E94E7230C19BE00D3846A /* ViktorEmailTestObjcTests */,
+				899E94F2230C19BE00D3846A /* ViktorEmailTestObjcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899E94CE230C19BC00D3846A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899E94E0230C19BE00D3846A /* LaunchScreen.storyboard in Resources */,
+				899E94DD230C19BE00D3846A /* Assets.xcassets in Resources */,
+				899E94DB230C19BC00D3846A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899E94E6230C19BE00D3846A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899E94F1230C19BE00D3846A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		899E94CC230C19BC00D3846A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899E94D8230C19BC00D3846A /* ViewController.m in Sources */,
+				899E94E3230C19BE00D3846A /* main.m in Sources */,
+				899E94D5230C19BC00D3846A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899E94E4230C19BE00D3846A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899E94ED230C19BE00D3846A /* ViktorEmailTestObjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899E94EF230C19BE00D3846A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899E94F8230C19BE00D3846A /* ViktorEmailTestObjcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		899E94EA230C19BE00D3846A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899E94CF230C19BC00D3846A /* ViktorEmailTestObjc */;
+			targetProxy = 899E94E9230C19BE00D3846A /* PBXContainerItemProxy */;
+		};
+		899E94F5230C19BE00D3846A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899E94CF230C19BC00D3846A /* ViktorEmailTestObjc */;
+			targetProxy = 899E94F4230C19BE00D3846A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		899E94D9230C19BC00D3846A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				899E94DA230C19BC00D3846A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		899E94DE230C19BE00D3846A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				899E94DF230C19BE00D3846A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		899E94FA230C19BE00D3846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		899E94FB230C19BE00D3846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		899E94FD230C19BE00D3846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				INFOPLIST_FILE = ViktorEmailTestObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.chrisf.ViktorEmailTestObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		899E94FE230C19BE00D3846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				INFOPLIST_FILE = ViktorEmailTestObjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.chrisf.ViktorEmailTestObjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		899E9500230C19BE00D3846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				INFOPLIST_FILE = ViktorEmailTestObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.chrisf.ViktorEmailTestObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViktorEmailTestObjc.app/ViktorEmailTestObjc";
+			};
+			name = Debug;
+		};
+		899E9501230C19BE00D3846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				INFOPLIST_FILE = ViktorEmailTestObjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.chrisf.ViktorEmailTestObjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViktorEmailTestObjc.app/ViktorEmailTestObjc";
+			};
+			name = Release;
+		};
+		899E9503230C19BE00D3846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				INFOPLIST_FILE = ViktorEmailTestObjcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.chrisf.ViktorEmailTestObjcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViktorEmailTestObjc;
+			};
+			name = Debug;
+		};
+		899E9504230C19BE00D3846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RXEXFSX5N;
+				INFOPLIST_FILE = ViktorEmailTestObjcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.chrisf.ViktorEmailTestObjcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViktorEmailTestObjc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		899E94CB230C19BC00D3846A /* Build configuration list for PBXProject "ViktorEmailTestObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899E94FA230C19BE00D3846A /* Debug */,
+				899E94FB230C19BE00D3846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899E94FC230C19BE00D3846A /* Build configuration list for PBXNativeTarget "ViktorEmailTestObjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899E94FD230C19BE00D3846A /* Debug */,
+				899E94FE230C19BE00D3846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899E94FF230C19BE00D3846A /* Build configuration list for PBXNativeTarget "ViktorEmailTestObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899E9500230C19BE00D3846A /* Debug */,
+				899E9501230C19BE00D3846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899E9502230C19BE00D3846A /* Build configuration list for PBXNativeTarget "ViktorEmailTestObjcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899E9503230C19BE00D3846A /* Debug */,
+				899E9504230C19BE00D3846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 899E94C8230C19BC00D3846A /* Project object */;
+}
